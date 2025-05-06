@@ -67,7 +67,7 @@ if(!isset($_SESSION["signIn"]) ) {
 
       <h1 class="mt-5 fw-bold">Dashboard - <span class="fs-4 text-secondary"> <?php echo $day. " ". $dayOfMonth." ". " ". $month. " ". $year; ?> </span></h1>
     
-      <div class="alert alert-success" role="alert">Selamat datang admin - <span class="fw-bold text-capitalize"><?php echo $_SESSION['admin']['nama_admin']; ?></span> di Dashboard CuyPerpus</div>
+      <div class="alert alert-success" role="alert">Selamat datang Admin - <span class="fw-bold text-capitalize"><?php echo $_SESSION['admin']['nama_admin']; ?></span> di Dashboard CuyPerpus</div>
       
       <div class="mt-4 p-3">
 
